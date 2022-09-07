@@ -1,0 +1,87 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number:
+            55:d7:d4:4e:58:66:df:2d:f5:ba:9f:7d:ef:3d:04:51
+    Signature Algorithm: sha256WithRSAEncryption
+        Issuer: CN=rabbitmq-ca
+        Validity
+            Not Before: Aug 30 14:52:15 2022 GMT
+            Not After : Dec  2 14:52:15 2024 GMT
+        Subject: CN=*.rabbitmq.lab
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (2048 bit)
+                Modulus:
+                    00:e7:8e:47:74:60:8b:e5:26:fb:6a:4b:55:4d:7e:
+                    67:bd:bd:60:30:c3:08:c6:af:55:8d:eb:41:e7:41:
+                    24:4c:57:25:b7:0f:eb:81:9b:32:e6:50:54:6c:96:
+                    42:37:0d:7f:0f:fc:70:ca:a1:91:05:1e:9c:f0:5c:
+                    21:86:65:80:c4:88:81:52:84:28:9a:ad:f2:87:fc:
+                    b7:7e:e3:fb:7d:c4:9d:c4:e0:f6:b6:52:b8:2a:df:
+                    8e:76:e4:ff:5c:43:61:a2:cf:57:f0:4f:41:81:d7:
+                    49:e8:de:50:e2:da:4d:40:08:1b:c5:e6:b8:ff:33:
+                    e8:63:bb:3d:ed:a1:5b:5e:bd:f0:8c:e6:04:f7:b2:
+                    9f:7a:7e:1a:ff:78:51:26:13:d9:0e:c4:9a:28:29:
+                    66:4d:86:ae:89:6d:b7:7d:11:95:37:f6:6d:2d:13:
+                    23:db:b3:21:d5:92:d2:9f:3a:34:80:67:43:b1:09:
+                    5c:6a:b6:10:8c:14:8a:5b:68:e6:66:5c:59:d7:42:
+                    5f:9b:b8:ce:5f:a4:c9:c3:57:a4:50:f4:4e:4f:dd:
+                    72:d0:e9:29:c4:bd:96:b2:49:c0:86:89:c8:d1:26:
+                    d3:cb:68:ab:11:2a:6c:c3:7b:52:ba:f5:b5:f5:73:
+                    e3:8b:35:7c:75:ac:81:17:9c:90:a1:1d:7e:a5:bc:
+                    9d:25
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Basic Constraints: 
+                CA:FALSE
+            X509v3 Subject Key Identifier: 
+                38:66:D2:66:11:FA:87:75:3E:28:C3:BE:02:BB:0E:B4:7B:16:8A:5A
+            X509v3 Authority Key Identifier: 
+                keyid:22:66:00:8E:AD:EA:80:4E:1B:20:24:73:93:93:2B:1E:F1:8B:95:7E
+                DirName:/CN=rabbitmq-ca
+                serial:B4:59:06:7E:05:B0:BE:A3
+
+            X509v3 Extended Key Usage: 
+                TLS Web Server Authentication, TLS Web Client Authentication
+            X509v3 Key Usage: 
+                Digital Signature, Key Encipherment
+            X509v3 Subject Alternative Name: 
+                DNS:*.rabbitmq.lab
+    Signature Algorithm: sha256WithRSAEncryption
+         8d:ca:73:0b:95:ba:ec:fe:5e:55:f0:cf:c0:f7:14:26:20:11:
+         cd:2f:b8:4f:1d:c8:71:ab:13:38:1c:9e:69:31:62:59:ce:7a:
+         e0:67:0e:28:c5:8b:c8:cb:50:fb:e2:16:be:0b:5e:c3:f9:37:
+         1a:cf:f3:45:fb:25:10:4b:ea:c6:e5:56:7c:3f:89:de:b8:76:
+         b1:7b:7d:e0:42:be:97:0f:0d:04:ed:22:20:4a:6a:bc:11:e6:
+         e2:18:2d:a1:21:8e:97:ef:50:58:b0:0b:54:b2:78:d0:b5:08:
+         93:d8:cd:9f:1f:f4:37:3c:2e:bc:94:f7:7f:67:43:27:6d:da:
+         28:88:22:62:3c:84:cb:fe:c1:56:f3:49:35:41:39:37:fc:d7:
+         fe:f8:8c:24:cc:4e:2b:9b:35:0b:3a:31:42:fc:08:91:9f:24:
+         a0:de:9f:c0:c3:bb:2d:87:83:d9:dc:07:ab:9f:34:97:b7:01:
+         49:0d:6a:b4:b7:ec:98:c7:85:68:6e:da:34:a4:3f:a2:2e:4e:
+         6a:54:f0:3a:f2:75:4a:70:fc:04:f0:17:d1:b6:58:f1:29:c9:
+         87:96:9b:20:f1:75:c4:86:2b:ee:a1:d5:45:f9:2b:49:83:d8:
+         df:8b:5a:9d:ff:b7:af:e4:3c:d8:25:43:7e:0f:99:6a:8b:c4:
+         ec:14:0a:05
+-----BEGIN CERTIFICATE-----
+MIIDdjCCAl6gAwIBAgIQVdfUTlhm3y31up997z0EUTANBgkqhkiG9w0BAQsFADAW
+MRQwEgYDVQQDDAtyYWJiaXRtcS1jYTAeFw0yMjA4MzAxNDUyMTVaFw0yNDEyMDIx
+NDUyMTVaMBkxFzAVBgNVBAMMDioucmFiYml0bXEubGFiMIIBIjANBgkqhkiG9w0B
+AQEFAAOCAQ8AMIIBCgKCAQEA545HdGCL5Sb7aktVTX5nvb1gMMMIxq9VjetB50Ek
+TFcltw/rgZsy5lBUbJZCNw1/D/xwyqGRBR6c8FwhhmWAxIiBUoQomq3yh/y3fuP7
+fcSdxOD2tlK4Kt+OduT/XENhos9X8E9BgddJ6N5Q4tpNQAgbxea4/zPoY7s97aFb
+Xr3wjOYE97Kfen4a/3hRJhPZDsSaKClmTYauiW23fRGVN/ZtLRMj27Mh1ZLSnzo0
+gGdDsQlcarYQjBSKW2jmZlxZ10Jfm7jOX6TJw1ekUPROT91y0OkpxL2WsknAhonI
+0SbTy2irESpsw3tSuvW19XPjizV8dayBF5yQoR1+pbydJQIDAQABo4G8MIG5MAkG
+A1UdEwQCMAAwHQYDVR0OBBYEFDhm0mYR+od1PijDvgK7DrR7FopaMEYGA1UdIwQ/
+MD2AFCJmAI6t6oBOGyAkc5OTKx7xi5V+oRqkGDAWMRQwEgYDVQQDDAtyYWJiaXRt
+cS1jYYIJALRZBn4FsL6jMB0GA1UdJQQWMBQGCCsGAQUFBwMBBggrBgEFBQcDAjAL
+BgNVHQ8EBAMCBaAwGQYDVR0RBBIwEIIOKi5yYWJiaXRtcS5sYWIwDQYJKoZIhvcN
+AQELBQADggEBAI3KcwuVuuz+XlXwz8D3FCYgEc0vuE8dyHGrEzgcnmkxYlnOeuBn
+DijFi8jLUPviFr4LXsP5NxrP80X7JRBL6sblVnw/id64drF7feBCvpcPDQTtIiBK
+arwR5uIYLaEhjpfvUFiwC1SyeNC1CJPYzZ8f9Dc8LryU939nQydt2iiIImI8hMv+
+wVbzSTVBOTf81/74jCTMTiubNQs6MUL8CJGfJKDen8DDuy2Hg9ncB6ufNJe3AUkN
+arS37JjHhWhu2jSkP6IuTmpU8DrydUpw/ATwF9G2WPEpyYeWmyDxdcSGK+6h1UX5
+K0mD2N+LWp3/t6/kPNglQ34PmWqLxOwUCgU=
+-----END CERTIFICATE-----
